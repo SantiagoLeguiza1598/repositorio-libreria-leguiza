@@ -32,7 +32,7 @@ body {
 }
 .navbar .menu a {
   text-decoration: none;
-  color: darkgoldenrod;
+
   cursor: pointer;
   text-transform: uppercase;
 }
