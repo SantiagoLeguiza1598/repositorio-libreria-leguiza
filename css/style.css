@@ -32,7 +32,6 @@ body {
 }
 .navbar .menu a {
   text-decoration: none;
-
   cursor: pointer;
   text-transform: uppercase;
 }
