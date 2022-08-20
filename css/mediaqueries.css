@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     position: relative;
   }
@@ -7,7 +7,7 @@
   }
   .navbar .menu-bar {
     display: block;
-    grid-column: 8 / 9;
+    grid-column: 9 / 10;
     font-size: 2em;
     cursor: pointer;
   }

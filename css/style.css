@@ -23,7 +23,7 @@ body {
   grid-column: 2 / 3;
 }
 .navbar .menu {
-  grid-column: 4 / 7;
+  grid-column: 4 / 8;
   display: flex;
   justify-content: space-around;
 }
@@ -68,7 +68,6 @@ body {
 .hero .btn {
   font-size: 1em;
   background-color: #edcb54;
-
   padding: 10px 20px;
   border-radius: 30px;
   border: 1px solid#EDCB54;
@@ -76,6 +75,7 @@ body {
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
+
 .hero h1 {
   font-size: 70px;
   background: linear-gradient(rgb(2, 158, 197) rgb(2, 72, 107));

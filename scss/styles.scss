@@ -14,30 +14,30 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
-    .icons-container, .icons { 
-        display:flex;
-        justify-content: center;
-        margin: 1 0 25rem;
-        color: map-get($map: $text-color, $key: color1 )
-        flex-flow:column wrap;
+    .icons-container,
+    .icons {
+      display: flex;
+      justify-content: center;
+      margin: 1 0 25rem;
+      color: map-get($map: $text-color, $key: color1) flex-flow column wrap;
     }
-    .icons-container{
-        text-align: center;
+    .icons-container {
+      text-align: center;
 
-        .icons {
-            i {
-                font-size: map-get($map:$font-size , $key: medium );
-                margin: 2rem;
-            }
+      .icons {
+        i {
+          font-size: map-get($map: $font-size, $key: medium);
+          margin: 2rem;
         }
+      }
     }
     .info {
-        i {
-            @extend .icons-container.icons;
-        }
+      i {
+        @extend .icons-container.icons;
+      }
     }
- }
- @include mobile {
+  }
+  @include mobile {
     flex-direction: row;
- }
+  }
 }
