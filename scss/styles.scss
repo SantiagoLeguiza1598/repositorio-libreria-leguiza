@@ -19,7 +19,7 @@
         justify-content: center;
         margin: 1 0 25rem;
         color: map-get($map: $text-color, $key: color1 )
-        flex-flow: column wrap;
+        flex-flow:column wrap;
     }
     .icons-container{
         text-align: center;
